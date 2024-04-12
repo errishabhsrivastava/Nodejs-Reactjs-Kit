@@ -3,46 +3,6 @@
 This starter kit provides a basic setup for building a web application using Node.js and React.js.
 
 
-## How to Use
-
-### Prerequisites
-
-- Node.js and npm installed on your machine
-
-### Steps
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/your-username/node-react-starter.git
-   cd node-react-starter
-
-# Install server-side dependencies
-cd server
-npm install
-
-# Install client-side dependencies
-cd ../client
-npm install
-
-# Install server-side dependencies
-cd server
-npm install
-
-# Install client-side dependencies
-cd ../client
-npm install
-
-
-In this README.md:
-
-- The directory structure is represented using Markdown code blocks to maintain readability.
-- Detailed steps are provided for setting up and running the Node.js and React.js applications locally.
-- Common commands such as cloning the repository, installing dependencies, setting up environment variables, and starting the development servers are explained.
-- Additional notes offer guidance on customization and best practices for extending the starter kit.
-
-Feel free to customize this README template further based on specific details about your starter kit and any additional setup/configuration steps required for your project. This documentation will help developers understand the project structure and quickly get started with building applications using Node.js and React.js.
-
 ## Project Structure
 
 ```plaintext
@@ -76,5 +36,47 @@ project-root/
 │
 ├───package.json        # Main project metadata and scripts
 └───README.md           # Project documentation
-```plaintext
+```
+
+## How to Use
+
+### Prerequisites
+
+- Node.js and npm installed on your machine
+
+### Steps
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/node-react-starter.git
+   cd node-react-starter
+
+# Install server-side dependencies
+cd server
+npm install
+
+# Install client-side dependencies
+cd ../client
+npm install
+
+# Install server-side dependencies
+cd server
+npm install
+
+# Install client-side dependencies
+cd ../client
+npm install
+
+# Running Command
+npm start
+
+In this README.md:
+
+- The directory structure is represented using Markdown code blocks to maintain readability.
+- Detailed steps are provided for setting up and running the Node.js and React.js applications locally.
+- Common commands such as cloning the repository, installing dependencies, setting up environment variables, and starting the development servers are explained.
+- Additional notes offer guidance on customization and best practices for extending the starter kit.
+
+Feel free to customize this README template further based on specific details about your starter kit and any additional setup/configuration steps required for your project. This documentation will help developers understand the project structure and quickly get started with building applications using Node.js and React.js.
 
